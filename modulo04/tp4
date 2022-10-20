@@ -1,1 +1,31 @@
-
+CREATE TABLE `cliente` (
+  `idCliente` int NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `DNI` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Direccion` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Telefono` varchar(45) DEFAULT NULL,
+  `Aval` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  PRIMARY KEY (`idCliente`),
+  UNIQUE KEY `idCliente_UNIQUE` (`idCliente`),
+  UNIQUE KEY `DNI_UNIQUE` (`DNI`),
+  UNIQUE KEY `Telefono_UNIQUE` (`Telefono`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+CREATE TABLE `coche` (
+  `Matricula` int NOT NULL,
+  `Modelo` int NOT NULL,
+  `Color` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Marca` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `PrecioAlquiler` int NOT NULL,
+  `LitrosGasolina` int NOT NULL,
+  PRIMARY KEY (`Matricula`),
+  UNIQUE KEY `Matricula_UNIQUE` (`Matricula`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `reservas` (
+  `idReservas` int NOT NULL AUTO_INCREMENT,
+  `fechadeinicio` date NOT NULL,
+  `finalreserva` date NOT NULL,
+  `precioTotal` int NOT NULL,
+  `cantidadCoches` int NOT NULL,
+  PRIMARY KEY (`idReservas`),
+  UNIQUE KEY `idReservas_UNIQUE` (`idReservas`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
