@@ -1,0 +1,68 @@
+{
+  "Productos": [
+    {
+      "Id_producto": 283,
+      "Nombre": "Gafas de sol",
+      "Marca": "Acme",
+      "Disponible": 20,
+      "Precio": 9800,
+      "Temporada": "Verano 2023",
+      "Caracteristicas": [
+        {
+          "Color": "Negro",
+          "Marco": "Metal"
+        }
+      ]
+    },
+    {
+      "Id_producto": 191,
+      "Nombre": "Reloj deportivo",
+      "Marca": "Timer",
+      "Disponible": 2,
+      "Precio": 21400,
+      "Caracteristicas": [
+        {
+          "Color": "Plateado",
+          "Marco": "Goma y Plástico"
+        }
+      ]
+    },
+    {
+      "Id_producto": 148,
+      "Nombre": "Juego de medias",
+      "Marca": "Piecito",
+      "Disponible": 38,
+      "Precio": 500,
+      "Caracteristicas": [
+        {
+          "Color": "varios",
+          "Marco": "algodon"
+        }
+      ]
+    },
+    {
+      "Id_producto": 82,
+      "Nombre": "Camiseta selección Argentina",
+      "Marca": "Argento",
+      "Disponible": 11,
+      "Precio": 6800,
+      "Caracteristicas": [
+        {
+          "Talle": "L"
+        }
+      ]
+    },
+    {
+      "Id_producto": 81,
+      "Nombre": "Camiseta selección Argentina",
+      "Marca": "Argento",
+      "Disponible": 15,
+      "Precio": 6800,
+      "Caracteristicas": [
+        {
+          "Talle": "M"
+        }
+      ]
+    }
+  ]
+}
