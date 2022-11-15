@@ -1,0 +1,29 @@
+{
+  "Departamentos": [
+    {
+      "Contabilidad": {
+        "id_empleado": 15,
+        "nombre": "Ramiro Romero"
+      }
+    },
+    {
+      "Tecnología": {
+        "id_empleado": 24,
+        "Nombre": "Pedro Mendez",
+        "Puesto": "FullStack JS"
+      }
+    },
+    {
+      "Producción": {
+        "id_empleado": 7,
+        "Nombre": "Gabriela Lescano"
+      }
+    },
+    {
+      "Producción": {
+        "id_empleado": 7,
+        "Nombre": "Gabriela Lescano"
+      }
+    }
+  ]
+}
