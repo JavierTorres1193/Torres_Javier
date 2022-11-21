@@ -1,29 +1,34 @@
 {
-  "Departamentos": [
+    "Contabilidad":[{
+        "idEmpleado": 10,
+        "Nombre": "Juan Segovia"},
+         {
+         "idEmpleado": 15,
+            "Nombre": "Ramiro Romero"}
+  ],
+  
+  
+    "Tecnologia":[{
+    "id_empleado": 12, 
+    "nombre": "Pablo Richmon", 
+    "puesto": "PM"},
     {
-      "Contabilidad": {
-        "id_empleado": 15,
-        "nombre": "Ramiro Romero"
-      }
-    },
+    "id_empleado": 23, 
+    "nombre": "Marta Fernandez",
+    "puesto": "TechLead"},
     {
-      "Tecnología": {
-        "id_empleado": 24,
-        "Nombre": "Pedro Mendez",
-        "Puesto": "FullStack JS"
-      }
-    },
-    {
-      "Producción": {
-        "id_empleado": 7,
-        "Nombre": "Gabriela Lescano"
-      }
-    },
-    {
-      "Producción": {
-        "id_empleado": 7,
-        "Nombre": "Gabriela Lescano"
-      }
-    }
+    "id_empleado": 24,
+    "nombre": "Pedro Mendez",
+    "puesto": "FullStack JS"}
+  ],
+  
+    "Produccion":[{
+    "id_empleado": 7, 
+    "nombre": "Gabriela Lezcano"}
+  ],
+  
+    "Comercial":[{
+    "id_empleado": 2, 
+    "nombre": "Fabiana Martinez"}
   ]
 }
