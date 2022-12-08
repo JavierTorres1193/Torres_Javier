@@ -1,0 +1,11 @@
+{
+    "server":{
+        "port":3300
+    },
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password",
+        "database": "tp9"
+    }
+}
