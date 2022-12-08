@@ -1,0 +1,13 @@
+Definiciones
+
+REST
+La abreviatura REST significa "Transferencia de estado representacional" y se refiere a un estilo de arquitectura de software. Se basa en seis principios que describen cómo se definen y abordan los recursos en red en la web, por ejemplo, en una nube.
+
+API
+API significa Interfaz de programación de aplicaciones. En el contexto de las API, la palabra Aplicación se refiere a cualquier software con una función distinta. La interfaz se puede considerar como un contrato de servicio entre dos aplicaciones. Este contrato define cómo los dos se comunican entre sí mediante solicitudes y respuestas.
+
+ENDPOINT
+En pocas palabras, un punto final es un extremo de un canal de comunicación. Cuando una API interactúa con otro sistema, los puntos de contacto de esta comunicación se consideran puntos finales. Para las API, un punto final puede incluir una URL de un servidor o servicio.
+
+HEADERS
+En tecnología de la información, el encabezado se refiere a los datos complementarios colocados al comienzo de un bloque de datos que se almacenan o transmiten. En la transmisión de datos, los datos que siguen al encabezado a veces se denominan carga útil o cuerpo.
